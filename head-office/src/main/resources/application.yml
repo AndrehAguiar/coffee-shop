@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: ${APP_PROFILE:test}
+  jpa:
+    open-in-view: true
+
+application:
+  description: Mercadinho-API Sede / Avanade #CodeAnywhere
+  version: 1.0
